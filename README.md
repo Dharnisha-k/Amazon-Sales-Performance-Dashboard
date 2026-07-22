@@ -1,142 +1,72 @@
-#  Amazon Sales Performance Dashboard (Excel)
+# Amazon Sales Performance Dashboard
 
-##  Overview
+An interactive Excel dashboard analyzing Amazon sales performance across countries, product categories, and brands — built as a portfolio project to demonstrate data visualization, pivot table design, and business analytics skills in Excel.
 
-This project showcases an **interactive Amazon Sales Performance Dashboard** built using **Microsoft Excel**. The dashboard provides a comprehensive view of sales performance through dynamic visualizations, KPI cards, and slicers, enabling users to explore business insights effectively.
+![Dashboard Preview](Screenshot_2026-07-07_205533.png)
 
-This is my **first interactive dashboard created in Microsoft Excel**, developed to improve my data visualization and business analytics skills.
+## Overview
 
----
+This dashboard provides a 360° view of Amazon sales performance, covering revenue trends, discount impact, regional distribution, product-level performance, and category/brand comparisons. It's designed to surface actionable insights at a glance through KPI cards, charts, and a curated insights panel.
 
-##  Dashboard Preview
+## Key Metrics (KPIs)
 
-![Amazon Sales Dashboard](Dashboard.png)
+| Metric | Value |
+|---|---|
+| Total Revenue | $91,021,212.99 |
+| Total Quantity Sold | 300,140 |
+| Average Discount | 7.42% |
+| Average Unit Price | $302.906 |
+| Total Orders | 100,001 |
 
-> *(Upload your dashboard image as `Dashboard.png` in your GitHub repository.)*
+## Dashboard Features
 
----
+- **Revenue vs Discount Trend** — Combo chart tracking yearly revenue against average discount rate (2020–2024)
+- **Quantity Sold by Country** — Pie chart showing regional distribution (US 70%, India 15%, UK 5%, Australia 4%, Canada 6%)
+- **Revenue vs Unit Price by Brand** — Dual-axis chart comparing brand-level revenue and pricing
+- **Top 5 Products by Revenue** — Horizontal bar chart of best-selling SKUs
+- **Sales by Category** — Category-wise revenue breakdown (Electronics leads at $15.58M)
+- **Yearly Revenue Trend** — Line chart of revenue across five years
+- **Key Insights Panel** — Auto-generated narrative highlights (e.g., market concentration, discount stability, brand performance)
+- **Slicers** — Interactive filtering by Country and Category
 
-## Project Objectives
+## Tools & Techniques Used
 
-- Monitor overall sales performance.
-- Analyze yearly revenue trends.
-- Identify top-performing products and categories.
-- Compare revenue with discount trends.
-- Understand country-wise sales distribution.
-- Build an interactive dashboard using Excel.
+- Microsoft Excel (Pivot Tables & Pivot Charts)
+- Combo chart axis formatting (dual-axis visualizations)
+- Data normalization techniques for comparative charting
+- Slicers for interactive filtering
+- KPI card design using linked cells and icons
+- Dashboard layout and visual design principles
 
----
+## Key Insights
 
-##  Dashboard Features
+- The United States contributed 70% of total sales volume
+- Revenue remained stable despite fluctuation in average discount rates
+- Higher unit prices did not consistently result in higher revenue across brands
+- Memory Card 128GB generated the highest revenue among top-selling products
+- Electronics was the highest-performing category, generating the greatest sales revenue
 
-### 📌 KPI Cards
-- Total Revenue
-- Total Quantity Sold
-- Average Discount
-- Average Unit Price
-- Total Orders
-
-### 📌 Interactive Slicers
-- Country
-- Category
-
-### 📌 Charts & Visualizations
-- Revenue vs Discount Trend
-- Quantity Sold by Country
-- Revenue vs Unit Price by Brand
-- Top 5 Products by Revenue
-- Sales by Category
-- Yearly Revenue Trend
-
-### 📌 Business Insights Panel
-- Highest revenue-generating product
-- Best-performing category
-- Country contributing the highest sales
-- Revenue trend summary
-- Discount impact on revenue
-
----
-
-## 🛠️ Tools Used
-
-- Microsoft Excel
-- Pivot Tables
-- Pivot Charts
-- Slicers
-- KPI Cards
-- Shapes & Icons
-- Conditional Formatting
-
----
-
-## 📂 Dataset
-
-- **Source:** Kaggle
-- **Dataset:** Amazon Sales Dataset
-
-> **Note:** This project focuses on dashboard design and data visualization. The dataset was used as provided without performing data cleaning or transformation.
-
----
-
-## 📈 Key Insights
-
-- 🇺🇸 United States contributed approximately **70%** of total sales.
-- 💾 Memory Card 128GB generated the highest revenue among the top-selling products.
-- 📱 Electronics emerged as the highest-performing category.
-- 📊 Revenue remained relatively stable despite fluctuations in average discount.
-- 📈 Revenue reached its highest value in 2023 before a slight decline in 2024.
-
----
-
-## 💡 Skills Demonstrated
-
-- Data Visualization
-- Dashboard Design
-- Interactive Reporting
-- KPI Development
-- Pivot Tables
-- Pivot Charts
-- Slicer Implementation
-- Business Analytics
-- Analytical Thinking
-
----
-
-## 📁 Repository Structure
+## Repository Contents
 
 ```
-Amazon-Sales-Performance-Dashboard/
-│
-├── Amazon_Sales_Dashboard.xlsx
-├── Dashboard.png
-├── Amazon_Sales_Dataset.csv
-└── README.md
+├── README.md
+├── Amazon_Sales_Dashboard.xlsx     # Main dashboard file
+└── Screenshot_2026-07-07_205533.png  # Dashboard preview image
 ```
 
----
+## How to Use
 
-## 🚀 Future Improvements
+1. Download `Amazon_Sales_Dashboard.xlsx`
+2. Open in Microsoft Excel (2016 or later recommended for full slicer/chart support)
+3. Use the Country and Category slicers to filter the dashboard views
+4. Navigate using the left-hand section icons (Overview, Sales, Product, Customer, Region, Brand)
 
-- Perform data cleaning using Power Query.
-- Build the same dashboard in Power BI.
-- Add advanced KPIs and calculations.
-- Include forecasting and trend analysis.
-- Enhance dashboard with drill-through and advanced filtering.
+## About
 
----
+This project is part of a portfolio of business analytics dashboards, alongside a companion [Spotify Churn Analysis dashboard built in Power BI](#). Built to demonstrate end-to-end dashboard design: data modeling, pivot analysis, and visual storytelling.
 
-## 🙋‍♀️ About Me
+## Contact
 
-**Dharnisha Kanagaraj**
+Feel free to reach out or connect if you'd like to discuss this project or collaborate on data analytics work.
 
-🎓 B.Sc. Data Science Student
 
-I am passionate about Data Analytics, Business Intelligence, Power BI, Excel, SQL, Python, and Machine Learning. I enjoy creating interactive dashboards that transform raw data into meaningful business insights.
-
----
-
-## ⭐ Support
-
-If you found this project useful, please consider giving it a ⭐ on GitHub.
-
-Feedback and suggestions are always welcome!
