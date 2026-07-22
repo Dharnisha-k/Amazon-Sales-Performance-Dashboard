@@ -1,6 +1,6 @@
-# 📊 Amazon Sales Performance Dashboard (Excel)
+#  Amazon Sales Performance Dashboard (Excel)
 
-## 📌 Overview
+##  Overview
 
 This project showcases an **interactive Amazon Sales Performance Dashboard** built using **Microsoft Excel**. The dashboard provides a comprehensive view of sales performance through dynamic visualizations, KPI cards, and slicers, enabling users to explore business insights effectively.
 
@@ -8,7 +8,7 @@ This is my **first interactive dashboard created in Microsoft Excel**, developed
 
 ---
 
-## 📷 Dashboard Preview
+##  Dashboard Preview
 
 ![Amazon Sales Dashboard](Dashboard.png)
 
@@ -16,7 +16,7 @@ This is my **first interactive dashboard created in Microsoft Excel**, developed
 
 ---
 
-## 🎯 Project Objectives
+## Project Objectives
 
 - Monitor overall sales performance.
 - Analyze yearly revenue trends.
@@ -27,7 +27,7 @@ This is my **first interactive dashboard created in Microsoft Excel**, developed
 
 ---
 
-## 📊 Dashboard Features
+##  Dashboard Features
 
 ### 📌 KPI Cards
 - Total Revenue
